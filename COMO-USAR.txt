@@ -1,0 +1,40 @@
+========================================
+  TRENDHUB v3 — VERSÃO COMPLETA
+========================================
+
+COMO ATUALIZAR:
+1. Pare o site (Ctrl+C no PowerShell)
+2. Substitua os arquivos (mantenha a pasta node_modules)
+3. Rode: npm run dev
+4. Abra: http://localhost:3000
+
+========================================
+NOVAS ABAS NESTA VERSÃO
+========================================
+
+1. Minha Conta TikTok
+   - Conecta pelo @
+   - Análise completa do perfil
+   - Melhores dias e horários
+   - Hashtags recomendadas
+   - Ideias de conteúdo
+   - Estratégia de crescimento
+   - Score de saúde da conta
+
+2. Favoritos
+   - Produtos, vídeos e lojas salvos
+
+3. Comparador
+   - Compare até 3 produtos lado a lado
+
+4. Alertas
+   - Crie alertas de crescimento / views / lives
+
+5. Histórico IA
+   - Veja roteiros e análises anteriores
+
++ Todas as abas anteriores continuam funcionando
+  (Dashboard, Produtos, Vídeos, Lojas, Lives,
+   Monitoramento, Ferramentas de IA)
+
+========================================
