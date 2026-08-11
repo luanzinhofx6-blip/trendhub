@@ -1,0 +1,218 @@
+export type Pais = "BR" | "US" | "ES";
+
+export const produtos = [
+  {
+    id: "1",
+    nome: "Massageador Facial Elétrico",
+    categoria: "Beleza · Cuidados pessoais",
+    vendas: 12482,
+    views: 3200000,
+    gmvReais: 1487500,
+    crescimento: 184,
+    pais: "BR" as Pais,
+    preco: 89.9,
+    tiktokUrl: "https://www.tiktok.com/shop/pdp/massageador-facial/1729421229342823356",
+    videoDestaqueUrl: "https://www.tiktok.com/@trendbeauty/video/7234567890123456789",
+  },
+  {
+    id: "2",
+    nome: "Mini Projetor Portátil",
+    categoria: "Eletrônicos · Casa",
+    vendas: 9841,
+    views: 2800000,
+    gmvReais: 1123400,
+    crescimento: 156,
+    pais: "BR" as Pais,
+    preco: 249.9,
+    tiktokUrl: "https://www.tiktok.com/shop/pdp/mini-projetor/1729421229342823357",
+    videoDestaqueUrl: "https://www.tiktok.com/@homefinds/video/7234567890123456790",
+  },
+  {
+    id: "3",
+    nome: "Organizador Portátil Dobrável",
+    categoria: "Casa · Organização",
+    vendas: 8732,
+    views: 2100000,
+    gmvReais: 894200,
+    crescimento: 132,
+    pais: "BR" as Pais,
+    preco: 59.9,
+    tiktokUrl: "https://www.tiktok.com/shop/pdp/organizador/1729421229342823358",
+    videoDestaqueUrl: "https://www.tiktok.com/@smartliving/video/7234567890123456791",
+  },
+  {
+    id: "4",
+    nome: "Escova Removedora de Pelos",
+    categoria: "Casa · Limpeza",
+    vendas: 7651,
+    views: 1900000,
+    gmvReais: 712800,
+    crescimento: 98,
+    pais: "BR" as Pais,
+    preco: 39.9,
+    tiktokUrl: "https://www.tiktok.com/shop/pdp/escova-pelos/1729421229342823359",
+    videoDestaqueUrl: "https://www.tiktok.com/@glowup/video/7234567890123456792",
+  },
+  {
+    id: "5",
+    nome: "Garrafa Smart com LED",
+    categoria: "Esportes · Acessórios",
+    vendas: 6543,
+    views: 1500000,
+    gmvReais: 589600,
+    crescimento: 87,
+    pais: "BR" as Pais,
+    preco: 79.9,
+    tiktokUrl: "https://www.tiktok.com/shop/pdp/garrafa-smart/1729421229342823360",
+    videoDestaqueUrl: "https://www.tiktok.com/@dailytech/video/7234567890123456793",
+  },
+  {
+    id: "6",
+    nome: "Luminária de Mesa LED RGB",
+    categoria: "Casa · Decoração",
+    vendas: 5421,
+    views: 1200000,
+    gmvReais: 478300,
+    crescimento: 76,
+    pais: "BR" as Pais,
+    preco: 119.9,
+    tiktokUrl: "https://www.tiktok.com/shop/pdp/luminaria-rgb/1729421229342823361",
+    videoDestaqueUrl: "https://www.tiktok.com/@homefinds/video/7234567890123456794",
+  },
+  {
+    id: "7",
+    nome: "Fone Bluetooth TWS Pro",
+    categoria: "Eletrônicos · Áudio",
+    vendas: 4987,
+    views: 980000,
+    gmvReais: 423100,
+    crescimento: 64,
+    pais: "BR" as Pais,
+    preco: 99.9,
+    tiktokUrl: "https://www.tiktok.com/shop/pdp/fone-tws/1729421229342823362",
+    videoDestaqueUrl: "https://www.tiktok.com/@dailytech/video/7234567890123456795",
+  },
+  {
+    id: "8",
+    nome: "Suporte de Celular Magnético",
+    categoria: "Acessórios · Automotivo",
+    vendas: 4321,
+    views: 870000,
+    gmvReais: 356800,
+    crescimento: 52,
+    pais: "BR" as Pais,
+    preco: 49.9,
+    tiktokUrl: "https://www.tiktok.com/shop/pdp/suporte-magnetico/1729421229342823363",
+    videoDestaqueUrl: "https://www.tiktok.com/@smartliving/video/7234567890123456796",
+  },
+];
+
+export const videos = [
+  {
+    id: "v1",
+    titulo: "Massageador Facial - Resultado em 7 dias",
+    criador: "@trendbeauty",
+    criadorUrl: "https://www.tiktok.com/@trendbeauty",
+    dataPost: "08/08/2026",
+    views: 3200000,
+    likes: 284000,
+    gmvReais: 293000,
+    vendas: 4821,
+    produto: "Massageador Facial Elétrico",
+    crescimento: 184,
+    videoUrl: "https://www.tiktok.com/@trendbeauty/video/7234567890123456789",
+  },
+  {
+    id: "v2",
+    titulo: "Mini Projetor na sala - vale a pena?",
+    criador: "@homefinds",
+    criadorUrl: "https://www.tiktok.com/@homefinds",
+    dataPost: "07/08/2026",
+    views: 2800000,
+    likes: 211000,
+    gmvReais: 241000,
+    vendas: 3106,
+    produto: "Mini Projetor Portátil",
+    crescimento: 156,
+    videoUrl: "https://www.tiktok.com/@homefinds/video/7234567890123456790",
+  },
+  {
+    id: "v3",
+    titulo: "Organizei a casa inteira com isso",
+    criador: "@smartliving",
+    criadorUrl: "https://www.tiktok.com/@smartliving",
+    dataPost: "06/08/2026",
+    views: 2100000,
+    likes: 178000,
+    gmvReais: 174000,
+    vendas: 2684,
+    produto: "Organizador Portátil Dobrável",
+    crescimento: 132,
+    videoUrl: "https://www.tiktok.com/@smartliving/video/7234567890123456791",
+  },
+  {
+    id: "v4",
+    titulo: "Escova mágica remove pelos do sofá",
+    criador: "@glowup",
+    criadorUrl: "https://www.tiktok.com/@glowup",
+    dataPost: "05/08/2026",
+    views: 1900000,
+    likes: 145000,
+    gmvReais: 142000,
+    vendas: 2217,
+    produto: "Escova Removedora de Pelos",
+    crescimento: 98,
+    videoUrl: "https://www.tiktok.com/@glowup/video/7234567890123456792",
+  },
+  {
+    id: "v5",
+    titulo: "Garrafa que lembra de beber água",
+    criador: "@dailytech",
+    criadorUrl: "https://www.tiktok.com/@dailytech",
+    dataPost: "04/08/2026",
+    views: 1500000,
+    likes: 112000,
+    gmvReais: 119000,
+    vendas: 1893,
+    produto: "Garrafa Smart com LED",
+    crescimento: 87,
+    videoUrl: "https://www.tiktok.com/@dailytech/video/7234567890123456793",
+  },
+];
+
+export const lojas = [
+  { id: "l1", nome: "Trend Beauty Official", produtos: 482, vendas: 128400, gmvReais: 4850000, crescimento: 42, tiktokUrl: "https://www.tiktok.com/@trendbeauty" },
+  { id: "l2", nome: "Home Finds BR", produtos: 317, vendas: 98400, gmvReais: 3720000, crescimento: 38, tiktokUrl: "https://www.tiktok.com/@homefinds" },
+  { id: "l3", nome: "Daily Tech Store", produtos: 208, vendas: 76300, gmvReais: 2980000, crescimento: 31, tiktokUrl: "https://www.tiktok.com/@dailytech" },
+  { id: "l4", nome: "Glow Store Oficial", produtos: 154, vendas: 54200, gmvReais: 2140000, crescimento: 27, tiktokUrl: "https://www.tiktok.com/@glowup" },
+  { id: "l5", nome: "Smart Living House", produtos: 192, vendas: 48700, gmvReais: 1890000, crescimento: 22, tiktokUrl: "https://www.tiktok.com/@smartliving" },
+];
+
+export const lives = [
+  { id: "live1", loja: "Trend Beauty", criador: "@trendbeauty", criadorUrl: "https://www.tiktok.com/@trendbeauty", produto: "Massageador Facial", espectadores: 84200, vendas: 4821, gmvReais: 293000, status: "AO VIVO" as const, liveUrl: "https://www.tiktok.com/@trendbeauty/live" },
+  { id: "live2", loja: "Home Finds", criador: "@homefinds", criadorUrl: "https://www.tiktok.com/@homefinds", produto: "Ofertas da semana", espectadores: 67800, vendas: 3942, gmvReais: 241000, status: "AO VIVO" as const, liveUrl: "https://www.tiktok.com/@homefinds/live" },
+  { id: "live3", loja: "Daily Tech", criador: "@dailytech", criadorUrl: "https://www.tiktok.com/@dailytech", produto: "Gadgets virais", espectadores: 51400, vendas: 3106, gmvReais: 198000, status: "AO VIVO" as const, liveUrl: "https://www.tiktok.com/@dailytech/live" },
+  { id: "live4", loja: "Glow Store", criador: "@glowup", criadorUrl: "https://www.tiktok.com/@glowup", produto: "Rotina de beleza", espectadores: 42700, vendas: 2684, gmvReais: 164000, status: "AO VIVO" as const, liveUrl: "https://www.tiktok.com/@glowup/live" },
+  { id: "live5", loja: "Smart Living", criador: "@smartliving", criadorUrl: "https://www.tiktok.com/@smartliving", produto: "Casa inteligente", espectadores: 36100, vendas: 2217, gmvReais: 127000, status: "AO VIVO" as const, liveUrl: "https://www.tiktok.com/@smartliving/live" },
+];
+
+export const monitoramentoVideos = [
+  { id: "mv1", influencer: "@homefinds", criadorUrl: "https://www.tiktok.com/@homefinds", tipo: "Vídeo acelerando · +184%", produto: "Organizador Portátil", views: 3800000, gmvReais: 174000, sinal: "↗ Viral", data: "Há 2h" },
+  { id: "mv2", influencer: "@glowup", criadorUrl: "https://www.tiktok.com/@glowup", tipo: "Novo vídeo · forte conversão", produto: "Escova Removedora", views: 1900000, gmvReais: 142000, sinal: "↗ Crescendo", data: "Há 5h" },
+  { id: "mv3", influencer: "@smartliving", criadorUrl: "https://www.tiktok.com/@smartliving", tipo: "Produto entrou no radar", produto: "Garrafa Smart", views: 1300000, gmvReais: 119000, sinal: "↗ Novo", data: "Há 8h" },
+];
+
+export const monitoramentoLives = [
+  { id: "ml1", influencer: "@trenddaily", criadorUrl: "https://www.tiktok.com/@trendbeauty", tipo: "Live iniciada há 18 min", produto: "Massageador Facial", views: 84200, gmvReais: 293000, sinal: "🔥 Alta", data: "Há 18 min" },
+  { id: "ml2", influencer: "@dailytech", criadorUrl: "https://www.tiktok.com/@dailytech", tipo: "Live iniciada há 42 min", produto: "Mini Projetor", views: 51400, gmvReais: 201000, sinal: "🔥 Alta", data: "Há 42 min" },
+];
+
+export function formatarReais(valor: number): string {
+  return valor.toLocaleString("pt-BR", { style: "currency", currency: "BRL", minimumFractionDigits: 0, maximumFractionDigits: 0 });
+}
+
+export function formatarNumero(valor: number): string {
+  if (valor >= 1000000) return (valor / 1000000).toFixed(1).replace(".", ",") + "M";
+  if (valor >= 1000) return (valor / 1000).toFixed(1).replace(".", ",") + "K";
+  return valor.toLocaleString("pt-BR");
+}
